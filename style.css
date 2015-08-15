@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 500px;
+    height: 300px;
+    margin: 10px 10px 0;
+    border: 1px dashed red;
+    background: url('background.png') 0 0 no-repeat;
+}
+
+.element-for-move {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
+.button {
+    padding: 10px;
+    margin: 10px 10px 0;
+}
